@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Stock Price</title>
+{% endblock %}
+
+{% block body %}
+<h1>The Last 100 Days Stock Trading With LSTM Strategy and $100k Budget </h1>
+
+<div class="content">
+    <table>
+        <tr>
+            <th>Stock Symbol</th>
+        </tr>
+    </table>
+    <form action="/" method="POST">
+        <input type="text" name="content" id="content">
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+
+
+
+{% endblock %}
